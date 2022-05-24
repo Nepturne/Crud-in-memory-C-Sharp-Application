@@ -68,7 +68,7 @@
     }
     Corra dotnet --version para verificar. Você deveria ver:
     2.2.101
-    Execute os dotnet newcomandos apropriados para criar seu projeto.
+    Execute os dotnet new comandos apropriados para criar seu projeto.
     ====================================================================================
     Instalar os pacotes NuGet:
 
