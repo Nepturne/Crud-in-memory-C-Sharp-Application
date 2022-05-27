@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shop.Data;
@@ -15,13 +16,14 @@ namespace Shop.Controllers
         // Rota de: Read - Leitura ->
         [HttpGet]
         [Route("")]
+        [AllowAnonymous]
         public async Task<ActionResult<List<Product>>> Get(
             [FromServices] DataContext context
         )
         {
             var products = await context
             .Products
-            .Include(x => x.Category) 
+            .Include(x => x.Category)
             .AsNoTracking()
             .ToListAsync();
 
@@ -31,6 +33,7 @@ namespace Shop.Controllers
         // Rota de: Read - Leitura - ById
         [HttpGet]
         [Route("{id:int}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Product>> GetById(
             int id,
             [FromServices] DataContext context
@@ -41,7 +44,7 @@ namespace Shop.Controllers
                 .Include(x => x.Category)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Id == id);
-            
+
             return product;
         }
 
@@ -53,6 +56,7 @@ namespace Shop.Controllers
         // produtos da categoria 1
         [HttpGet]
         [Route("categories/{id:int}")]
+        [AllowAnonymous]
         public async Task<ActionResult<List<Product>>> GetByCategory(
             int id,
             [FromServices] DataContext context
@@ -72,12 +76,13 @@ namespace Shop.Controllers
         // Create
         [HttpPost]
         [Route("")]
+        [Authorize(Roles = "employee")]
         public async Task<ActionResult<Product>> Post(
             [FromServices] DataContext context,
             [FromBody] Product model
         )
         {
-            
+
             if (ModelState.IsValid)
             {
                 context.Products.Add(model);
@@ -88,7 +93,7 @@ namespace Shop.Controllers
             {
                 return BadRequest(ModelState);
             }
-            
+
         }
         // Fim post
 

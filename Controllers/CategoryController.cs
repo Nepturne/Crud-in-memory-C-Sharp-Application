@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shop.Models; // Utilizando os models da app.
 using Shop.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 [Route("categories")]
 public class CategoryController : ControllerBase
@@ -12,6 +13,7 @@ public class CategoryController : ControllerBase
     // Read
     [HttpGet]
     [Route("")]
+    [AllowAnonymous]
     //public Task Get()
     //public ActionResult Get()
     // Async -> Cria Threads paralelas
@@ -30,6 +32,7 @@ public class CategoryController : ControllerBase
     // Read by id
     [HttpGet]
     [Route("{id:int}")]
+    [AllowAnonymous]
     public async Task<ActionResult<Category>> GetById(
         int id,
         [FromServices] DataContext context
@@ -42,6 +45,7 @@ public class CategoryController : ControllerBase
     // Create
     [HttpPost]
     [Route("")]
+    [Authorize(Roles = "employee")]
     public async Task<ActionResult<List<Category>>> Post(
         [FromBody] Category model,
         [FromServices] DataContext context
@@ -67,6 +71,7 @@ public class CategoryController : ControllerBase
     // Update
     [HttpPut]
     [Route("{id:int}")]
+    [Authorize(Roles = "employee")]
     public async Task<ActionResult<List<Category>>> Put(
         int id,
         [FromBody] Category model,
@@ -98,6 +103,7 @@ public class CategoryController : ControllerBase
     // Delete
     [HttpDelete]
     [Route("{id:int}")]
+    [Authorize(Roles = "employee")]
     public async Task<ActionResult<List<Category>>> Delete(
         int id,
         [FromServices] DataContext context
