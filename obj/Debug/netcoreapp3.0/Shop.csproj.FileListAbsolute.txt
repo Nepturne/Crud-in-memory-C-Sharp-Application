@@ -11,6 +11,7 @@ C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com AS
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -47,3 +48,13 @@ C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com AS
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\obj\Debug\netcoreapp3.0\Shop.csproj.CopyComplete
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\obj\Debug\netcoreapp3.0\Shop.dll
 C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\obj\Debug\netcoreapp3.0\Shop.pdb
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dev Lucas\Desktop\Learning\Backend\C#\5.Criando APIS Data Driven com ASP.NET Core 3 e EF Core 3\1- Criação da API\Shop\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll

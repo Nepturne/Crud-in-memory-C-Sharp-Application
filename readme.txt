@@ -76,3 +76,4 @@
     InMemory - É um banco de dados em Memória
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.0.1
     Aqui é pro SqlServer
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.0.1
