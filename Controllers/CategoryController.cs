@@ -6,7 +6,7 @@ using Shop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 
-[Route("categories")]
+[Route("v1/categories")]
 public class CategoryController : ControllerBase
 {
 
@@ -14,6 +14,8 @@ public class CategoryController : ControllerBase
     [HttpGet]
     [Route("")]
     [AllowAnonymous]
+    [ResponseCache(VaryByHeader = "User-Agent", Location = ResponseCacheLocation.Any, Duration = 30)]
+    //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true ]
     //public Task Get()
     //public ActionResult Get()
     // Async -> Cria Threads paralelas
